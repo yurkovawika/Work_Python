@@ -70,16 +70,21 @@
 # Даны два файла, в каждом из которых находится запись многочлена.
 # Задача - сформировать файл, содержащий сумму многочленов.
 
+# with open('file1.txt', 'w') as f: 
+#      f.writelines(polynom(2)) # чтобы сработало нужно ракоментить функцию из предыдущего задания
+# with open('file2.txt', 'w') as f:
+#      f.writelines(polynom(3))
+
 # stroka = []
 # with open('file1.txt', 'r') as f1:
 #      file1 = 'file1.txt'
-#      sum1 = open(file1, 'r')
-#      for line in sum1:
+#      sum = open(file1, 'r')
+#      for line in sum:
 #         stroka.append(f'{line[0:-3]}+ ')
 # with open('file2.txt', 'r') as f2:
-#      file1 = 'file2.txt'
-#      sum1 = open(file1, 'r')
-#      for line in sum1:
+#      file2 = 'file2.txt'
+#      sum = open(file2, 'r')
+#      for line in sum:
 #         stroka.append(f'{line[0:-3]}= 0')
 # with open("sum.txt", "w") as s:
 #     s.writelines(stroka)
