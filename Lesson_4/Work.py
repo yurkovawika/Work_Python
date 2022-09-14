@@ -74,7 +74,6 @@
 #      f.writelines(polynom(2)) # чтобы сработало нужно ракоментить функцию из предыдущего задания
 # with open('file2.txt', 'w') as f:
 #      f.writelines(polynom(3))
-
 # stroka = []
 # with open('file1.txt', 'r') as f1:
 #      file1 = 'file1.txt'
@@ -88,7 +87,6 @@
 #         stroka.append(f'{line[0:-3]}= 0')
 # with open("sum.txt", "w") as s:
 #     s.writelines(stroka)
-
 
 
 
